@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:rcaseentities="http:///schemas/rcaseentities/_cKkSUFsYEea_a4Dt1lyb2g/0" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/rcaseentities/_cKkSUFsYEea_a4Dt1lyb2g/0 rcase.entities.profile.uml#_cKpx5VsYEea_a4Dt1lyb2g">
+  <uml:Model xmi:id="_cKVo0FsYEea_a4Dt1lyb2g" name="project1">
+    <eAnnotations xmi:id="_cKVo0VsYEea_a4Dt1lyb2g" source="Objing">
+      <contents xmi:type="uml:Property" xmi:id="_cKVo0lsYEea_a4Dt1lyb2g" name="exporterVersion">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_cKVo01sYEea_a4Dt1lyb2g" value="3.0.0"/>
+      </contents>
+    </eAnnotations>
+    <packagedElement xmi:type="uml:Class" xmi:id="_cKVo1FsYEea_a4Dt1lyb2g" name="Context Attribute1" clientDependency="_cKVo1VsYEea_a4Dt1lyb2g"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_cKVo1VsYEea_a4Dt1lyb2g" name="" supplier="_cKVo2FsYEea_a4Dt1lyb2g" client="_cKVo1FsYEea_a4Dt1lyb2g"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_cKVo1lsYEea_a4Dt1lyb2g" name="Context Attribute2" clientDependency="_cKVo11sYEea_a4Dt1lyb2g"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_cKVo11sYEea_a4Dt1lyb2g" name="" supplier="_cKVo2FsYEea_a4Dt1lyb2g" client="_cKVo1lsYEea_a4Dt1lyb2g"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_cKVo2FsYEea_a4Dt1lyb2g" name="Context Attribute3" clientDependency="_cKVo2VsYEea_a4Dt1lyb2g"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_cKVo2VsYEea_a4Dt1lyb2g" name="" supplier="_cKVo2lsYEea_a4Dt1lyb2g" client="_cKVo2FsYEea_a4Dt1lyb2g"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_cKVo2lsYEea_a4Dt1lyb2g" name="Situation of Interest1"/>
+    <profileApplication xmi:id="_cLk-8FsYEea_a4Dt1lyb2g">
+      <eAnnotations xmi:id="_cLnbMFsYEea_a4Dt1lyb2g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="rcase.entities.profile.uml#_cKpx5VsYEea_a4Dt1lyb2g"/>
+      </eAnnotations>
+      <appliedProfile href="rcase.entities.profile.uml#_cKpK0FsYEea_a4Dt1lyb2g"/>
+    </profileApplication>
+  </uml:Model>
+  <rcaseentities:ContextAttributeStereotype xmi:id="_cLrFkFsYEea_a4Dt1lyb2g" base_Class="_cKVo1FsYEea_a4Dt1lyb2g" CETagId="CA1" TagLibType="Location">
+    <TagResponsibility>Push</TagResponsibility>
+  </rcaseentities:ContextAttributeStereotype>
+  <rcaseentities:ContextDeriveStereotype xmi:id="_cLsTsFsYEea_a4Dt1lyb2g" base_Dependency="_cKVo1VsYEea_a4Dt1lyb2g"/>
+  <rcaseentities:ContextAttributeStereotype xmi:id="_cLs6wFsYEea_a4Dt1lyb2g" base_Class="_cKVo1lsYEea_a4Dt1lyb2g" CETagId="CA02" TagFrequency="3000" TagLibType="None">
+    <TagResponsibility>Pull</TagResponsibility>
+  </rcaseentities:ContextAttributeStereotype>
+  <rcaseentities:ContextDeriveStereotype xmi:id="_cLth0FsYEea_a4Dt1lyb2g" base_Dependency="_cKVo11sYEea_a4Dt1lyb2g"/>
+  <rcaseentities:ContextAttributeStereotype xmi:id="_cLth0VsYEea_a4Dt1lyb2g" base_Class="_cKVo2FsYEea_a4Dt1lyb2g" CETagId="CA03" TagLibType="Sensor">
+    <TagResponsibility>Push</TagResponsibility>
+  </rcaseentities:ContextAttributeStereotype>
+  <rcaseentities:IdentifiesStereotype xmi:id="_cLuI4FsYEea_a4Dt1lyb2g" base_Dependency="_cKVo2VsYEea_a4Dt1lyb2g"/>
+  <rcaseentities:SituationOfInterestStereotype xmi:id="_cLuI4VsYEea_a4Dt1lyb2g" base_Class="_cKVo2lsYEea_a4Dt1lyb2g"/>
+</xmi:XMI>

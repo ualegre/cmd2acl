@@ -1,0 +1,41 @@
+[comment encoding = UTF-8 /]
+[module main('http://www.eclipse.org/uml2/5.0.0/UML', 'http:///rcaseentities.ecore')]
+[import icase::files::generatePullObserver/]
+[import icase::files::generateLocationObserver/]
+[import icase::files::generateSensorObserver/]
+[import icase::files::generateBluetoothObserver/]
+[import icase::files::generateBroadcastObserver/]
+
+
+[template public generateElement(a : Class)]
+[comment @main/]
+
+[for (aStereoType : Stereotype | a.getAppliedStereotypes())]
+   
+
+	  [if (aStereoType.name.toString().equalsIgnoreCase('ContextAttributeStereotype'))]
+
+			[if (a.getValue(aStereoType, 'TagResponsibility').toString().equalsIgnoreCase('Pull'))]
+				[generatePullObserver(a,aStereoType)/]
+			[elseif (a.getValue(aStereoType, 'TagResponsibility').toString().equalsIgnoreCase('Push'))]
+				[if (a.getValue(aStereoType, 'TagLibType').toString().equalsIgnoreCase('Bluetooth'))]					
+					[generateBluetoothObserver(a,aStereoType)/]	
+				[elseif (a.getValue(aStereoType, 'TagLibType').toString().equalsIgnoreCase('Sensor'))]
+					[generateSensorObserver(a,aStereoType)/]
+				[elseif (a.getValue(aStereoType, 'TagLibType').toString().equalsIgnoreCase('Location'))]
+					[generateLocationObserver(a,aStereoType)/]
+				[elseif (a.getValue(aStereoType, 'TagLibType').toString().equalsIgnoreCase('Broadcast'))]
+					[generateBroadcastObserver(a,aStereoType)/]						
+				[/if]
+			[/if]
+	  [/if]
+
+      [if (aStereoType.name.toString().equalsIgnoreCase('SituationOfInterestStereotype'))]
+	  	
+		[file ( a.name.concat('.java'), false, 'UTF-8') ]
+			This is a situation of interest
+		[/file]
+	  [/if]
+[/for]
+
+[/template]
