@@ -20,7 +20,7 @@
  * limitations under the License.
  */
 
-package package [a.namespace.name.concat('.').concat(a.name).replaceAll('\\s','').toLower()/];
+package [a.namespace.name.concat('.').concat(a.name).replaceAll('\\s','').toLower()/];
 
 import android.content.Context;
 import android.hardware.Sensor;
