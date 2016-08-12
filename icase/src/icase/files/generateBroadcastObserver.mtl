@@ -23,8 +23,8 @@
 package [a.namespace.name.concat('.').concat(a.name).replaceAll('\\s','').toLower()/];
 
 import android.content.Context;
-import android.os.BatteryManager;
-import android.os.Bundle;
+//import android.os.BatteryManager;
+//import android.os.Bundle;
 
 import uk.ac.mdx.cs.ie.acontextlib.BroadcastContext;
 
@@ -45,7 +45,7 @@ public class [a.name.replaceAll('\\s','').concat('Context')/] extends BroadcastC
     }
 
 
-    protected void checkContext(Bundle bundle) {
+    protected void checkContext() { //Bundle bundle) {
 
         /*
  			// Include your variables here

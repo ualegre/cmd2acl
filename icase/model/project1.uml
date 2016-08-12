@@ -1,36 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:rcaseentities="http:///schemas/rcaseentities/_cKkSUFsYEea_a4Dt1lyb2g/0" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/rcaseentities/_cKkSUFsYEea_a4Dt1lyb2g/0 rcase.entities.profile.uml#_cKpx5VsYEea_a4Dt1lyb2g">
-  <uml:Model xmi:id="_cKVo0FsYEea_a4Dt1lyb2g" name="project1">
-    <eAnnotations xmi:id="_cKVo0VsYEea_a4Dt1lyb2g" source="Objing">
-      <contents xmi:type="uml:Property" xmi:id="_cKVo0lsYEea_a4Dt1lyb2g" name="exporterVersion">
-        <defaultValue xmi:type="uml:LiteralString" xmi:id="_cKVo01sYEea_a4Dt1lyb2g" value="3.0.0"/>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:rcaseentities="http:///schemas/rcaseentities/_tz3QcF-bEeaY08X_kb7fxw/0" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/rcaseentities/_tz3QcF-bEeaY08X_kb7fxw/0 rcase.entities.profile.uml#_t04kJ1-bEeaY08X_kb7fxw">
+  <uml:Model xmi:id="_tzqcIF-bEeaY08X_kb7fxw" name="project1">
+    <eAnnotations xmi:id="_tzqcIV-bEeaY08X_kb7fxw" source="Objing">
+      <contents xmi:type="uml:Property" xmi:id="_tzqcIl-bEeaY08X_kb7fxw" name="exporterVersion">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_tzqcI1-bEeaY08X_kb7fxw" value="3.0.0"/>
       </contents>
     </eAnnotations>
-    <packagedElement xmi:type="uml:Class" xmi:id="_cKVo1FsYEea_a4Dt1lyb2g" name="Context Attribute1" clientDependency="_cKVo1VsYEea_a4Dt1lyb2g"/>
-    <packagedElement xmi:type="uml:Dependency" xmi:id="_cKVo1VsYEea_a4Dt1lyb2g" name="" supplier="_cKVo2FsYEea_a4Dt1lyb2g" client="_cKVo1FsYEea_a4Dt1lyb2g"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_cKVo1lsYEea_a4Dt1lyb2g" name="Context Attribute2" clientDependency="_cKVo11sYEea_a4Dt1lyb2g"/>
-    <packagedElement xmi:type="uml:Dependency" xmi:id="_cKVo11sYEea_a4Dt1lyb2g" name="" supplier="_cKVo2FsYEea_a4Dt1lyb2g" client="_cKVo1lsYEea_a4Dt1lyb2g"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_cKVo2FsYEea_a4Dt1lyb2g" name="Context Attribute3" clientDependency="_cKVo2VsYEea_a4Dt1lyb2g"/>
-    <packagedElement xmi:type="uml:Dependency" xmi:id="_cKVo2VsYEea_a4Dt1lyb2g" name="" supplier="_cKVo2lsYEea_a4Dt1lyb2g" client="_cKVo2FsYEea_a4Dt1lyb2g"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_cKVo2lsYEea_a4Dt1lyb2g" name="Situation of Interest1"/>
-    <profileApplication xmi:id="_cLk-8FsYEea_a4Dt1lyb2g">
-      <eAnnotations xmi:id="_cLnbMFsYEea_a4Dt1lyb2g" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="rcase.entities.profile.uml#_cKpx5VsYEea_a4Dt1lyb2g"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tzqcJF-bEeaY08X_kb7fxw" name="Context Attribute1" clientDependency="_tzqcJV-bEeaY08X_kb7fxw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_tzqcJV-bEeaY08X_kb7fxw" name="" supplier="_tzqcKF-bEeaY08X_kb7fxw" client="_tzqcJF-bEeaY08X_kb7fxw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tzqcJl-bEeaY08X_kb7fxw" name="Context Attribute2" clientDependency="_tzqcJ1-bEeaY08X_kb7fxw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_tzqcJ1-bEeaY08X_kb7fxw" name="" supplier="_tzqcKF-bEeaY08X_kb7fxw" client="_tzqcJl-bEeaY08X_kb7fxw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tzqcKF-bEeaY08X_kb7fxw" name="Context Attribute3" clientDependency="_tzqcKV-bEeaY08X_kb7fxw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_tzqcKV-bEeaY08X_kb7fxw" name="" supplier="_tzqcKl-bEeaY08X_kb7fxw" client="_tzqcKF-bEeaY08X_kb7fxw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tzqcKl-bEeaY08X_kb7fxw" name="Situation of Interest1"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tzqcK1-bEeaY08X_kb7fxw" name="Context Attribute4" clientDependency="_tzqcLF-bEeaY08X_kb7fxw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_tzqcLF-bEeaY08X_kb7fxw" name="" supplier="_tzqcLV-bEeaY08X_kb7fxw" client="_tzqcK1-bEeaY08X_kb7fxw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tzqcLV-bEeaY08X_kb7fxw" name="Context Attribute5" clientDependency="_tzqcLl-bEeaY08X_kb7fxw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_tzqcLl-bEeaY08X_kb7fxw" name="" supplier="_tzqcKl-bEeaY08X_kb7fxw" client="_tzqcLV-bEeaY08X_kb7fxw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tzqcL1-bEeaY08X_kb7fxw" name="Context Attribute6" clientDependency="_tzqcMF-bEeaY08X_kb7fxw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_tzqcMF-bEeaY08X_kb7fxw" name="" supplier="_tzqcKl-bEeaY08X_kb7fxw" client="_tzqcL1-bEeaY08X_kb7fxw"/>
+    <profileApplication xmi:id="_t1r1YF-bEeaY08X_kb7fxw">
+      <eAnnotations xmi:id="_t1tqkF-bEeaY08X_kb7fxw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="rcase.entities.profile.uml#_t04kJ1-bEeaY08X_kb7fxw"/>
       </eAnnotations>
-      <appliedProfile href="rcase.entities.profile.uml#_cKpK0FsYEea_a4Dt1lyb2g"/>
+      <appliedProfile href="rcase.entities.profile.uml#_t04kIF-bEeaY08X_kb7fxw"/>
     </profileApplication>
   </uml:Model>
-  <rcaseentities:ContextAttributeStereotype xmi:id="_cLrFkFsYEea_a4Dt1lyb2g" base_Class="_cKVo1FsYEea_a4Dt1lyb2g" CETagId="CA1" TagLibType="Location">
-    <TagResponsibility>Push</TagResponsibility>
-  </rcaseentities:ContextAttributeStereotype>
-  <rcaseentities:ContextDeriveStereotype xmi:id="_cLsTsFsYEea_a4Dt1lyb2g" base_Dependency="_cKVo1VsYEea_a4Dt1lyb2g"/>
-  <rcaseentities:ContextAttributeStereotype xmi:id="_cLs6wFsYEea_a4Dt1lyb2g" base_Class="_cKVo1lsYEea_a4Dt1lyb2g" CETagId="CA02" TagFrequency="3000" TagLibType="None">
+  <rcaseentities:ContextAttributeStereotype xmi:id="_t1x8AF-bEeaY08X_kb7fxw" base_Class="_tzqcJF-bEeaY08X_kb7fxw" CETagId="CA1" TagFrequency="5000" TagLibType="Sensor">
     <TagResponsibility>Pull</TagResponsibility>
   </rcaseentities:ContextAttributeStereotype>
-  <rcaseentities:ContextDeriveStereotype xmi:id="_cLth0FsYEea_a4Dt1lyb2g" base_Dependency="_cKVo11sYEea_a4Dt1lyb2g"/>
-  <rcaseentities:ContextAttributeStereotype xmi:id="_cLth0VsYEea_a4Dt1lyb2g" base_Class="_cKVo2FsYEea_a4Dt1lyb2g" CETagId="CA03" TagLibType="Sensor">
+  <rcaseentities:ContextDeriveStereotype xmi:id="_t1yjEF-bEeaY08X_kb7fxw" base_Dependency="_tzqcJV-bEeaY08X_kb7fxw"/>
+  <rcaseentities:ContextAttributeStereotype xmi:id="_t1yjEV-bEeaY08X_kb7fxw" base_Class="_tzqcJl-bEeaY08X_kb7fxw" CETagId="CA02" TagLibType="Sensor">
     <TagResponsibility>Push</TagResponsibility>
   </rcaseentities:ContextAttributeStereotype>
-  <rcaseentities:IdentifiesStereotype xmi:id="_cLuI4FsYEea_a4Dt1lyb2g" base_Dependency="_cKVo2VsYEea_a4Dt1lyb2g"/>
-  <rcaseentities:SituationOfInterestStereotype xmi:id="_cLuI4VsYEea_a4Dt1lyb2g" base_Class="_cKVo2lsYEea_a4Dt1lyb2g"/>
+  <rcaseentities:ContextDeriveStereotype xmi:id="_t1yjEl-bEeaY08X_kb7fxw" base_Dependency="_tzqcJ1-bEeaY08X_kb7fxw"/>
+  <rcaseentities:ContextAttributeStereotype xmi:id="_t1zKIF-bEeaY08X_kb7fxw" base_Class="_tzqcKF-bEeaY08X_kb7fxw" CETagId="CA03" TagLibType="Location">
+    <TagResponsibility>Push</TagResponsibility>
+  </rcaseentities:ContextAttributeStereotype>
+  <rcaseentities:IdentifiesStereotype xmi:id="_t1zKIV-bEeaY08X_kb7fxw" base_Dependency="_tzqcKV-bEeaY08X_kb7fxw"/>
+  <rcaseentities:SituationOfInterestStereotype xmi:id="_t1zKIl-bEeaY08X_kb7fxw" base_Class="_tzqcKl-bEeaY08X_kb7fxw"/>
+  <rcaseentities:ContextAttributeStereotype xmi:id="_t1zKI1-bEeaY08X_kb7fxw" base_Class="_tzqcK1-bEeaY08X_kb7fxw" CETagId="CA04" TagLibType="Broadcast">
+    <TagResponsibility>Push</TagResponsibility>
+  </rcaseentities:ContextAttributeStereotype>
+  <rcaseentities:ContextDeriveStereotype xmi:id="_t1zxMF-bEeaY08X_kb7fxw" base_Dependency="_tzqcLF-bEeaY08X_kb7fxw"/>
+  <rcaseentities:ContextAttributeStereotype xmi:id="_t1zxMV-bEeaY08X_kb7fxw" base_Class="_tzqcLV-bEeaY08X_kb7fxw" CETagId="CA05" TagLibType="Bluetooth">
+    <TagResponsibility>Push</TagResponsibility>
+  </rcaseentities:ContextAttributeStereotype>
+  <rcaseentities:IdentifiesStereotype xmi:id="_t1zxMl-bEeaY08X_kb7fxw" base_Dependency="_tzqcLl-bEeaY08X_kb7fxw"/>
+  <rcaseentities:ContextAttributeStereotype xmi:id="_t1zxM1-bEeaY08X_kb7fxw" base_Class="_tzqcL1-bEeaY08X_kb7fxw" CETagId="CA06" TagLibType="None">
+    <TagResponsibility>Push</TagResponsibility>
+  </rcaseentities:ContextAttributeStereotype>
+  <rcaseentities:IdentifiesStereotype xmi:id="_t10YQF-bEeaY08X_kb7fxw" base_Dependency="_tzqcMF-bEeaY08X_kb7fxw"/>
 </xmi:XMI>

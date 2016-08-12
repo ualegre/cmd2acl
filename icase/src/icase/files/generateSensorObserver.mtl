@@ -3,6 +3,7 @@
 
 
 [template public generateSensorObserver(a : Class, s:Stereotype)]
+
 [file ( a.name.concat('Context.java').replaceAll('\\s',''), false, 'UTF-8') ]
 /*
  * Copyright 2016 Middlesex University
@@ -33,20 +34,31 @@ import uk.ac.mdx.cs.ie.acontextlib.SensorContext;
  * Context-Aware Systems Engineering). Please fill in the corresponding code.
  */
 public class [a.name.replaceAll('\\s','').concat('Context')/] extends SensorContext {
-
-   // private long mCurrentValue;
-   // private long mContextDifferenceHigher = 0;
-   // private long mContextDifferenceLower = 0;
-
+	/*
+	//Include your variables here
+	//This is an example for the light sensor in Android
+     private long mCurrentValue;
+     private long mContextDifferenceHigher = 0;
+   	 private long mContextDifferenceLower = 0;
+	*/
     public [a.name.replaceAll('\\s','').concat('Context')/](Context c) {
-       // super(c, Sensor.TYPE_LIGHT, SensorManager.SENSOR_DELAY_NORMAL, "[a.name.replaceAll('\\s','').concat('Context')/]");
+		/*
+			The constructor should call the super method. More information on android.hardware.sensor
+			can be found here: https://developer.android.com/reference/android/hardware/Sensor.html
 
+			This is an example of a super call for the light sensor:
+       	 super(c, Sensor.TYPE_LIGHT, SensorManager.SENSOR_DELAY_NORMAL, "[a.name.replaceAll('\\s','').concat('Context')/]");
+		*/
     }
 
 
     @Override
-    protected void checkContext(float['['/]] values) {
-       /* long value = Math.round(values['['/]0]);
+    protected void checkContext(){//float['['/]] values) {
+       /* 
+
+			//Include your code here
+			//This is an example for the light sensor in Android
+		long value = Math.round(values['['/]0]);
 
         long difference = Math.abs(mCurrentValue - value);
         long threshold;

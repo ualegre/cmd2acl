@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project default="main" name="icase">
-    <property name="ECLIPSE_HOME" value="../../../../../../../Program Files/eclipse/emf-mars/eclipse"/>
-    <property name="ECLIPSE_WORKSPACE" value="../.."/>
+    <property name="ECLIPSE_HOME" value="../../../../../../../../Program Files/eclipse/emf-mars/eclipse"/>
+    <property name="ECLIPSE_WORKSPACE" value="../../../../../Workspace/Acceleo"/>
 
     <!-- The classpath with only the dependencies used by the project -->
     <path id="icase.libraryclasspath">
