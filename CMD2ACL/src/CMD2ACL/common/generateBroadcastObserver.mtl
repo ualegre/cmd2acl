@@ -1,5 +1,5 @@
 [comment encoding = UTF-8 /]
-[module generateBroadcastObserver('http://www.eclipse.org/uml2/5.0.0/UML', 'http:///rcaseentities.ecore')]
+[module generateBroadcastObserver('http://www.eclipse.org/uml2/3.0.0/UML', 'http:///rcaseentities.ecore')]
 
 
 [template public generateBroadcastObserver(a : Class, s : Stereotype)]

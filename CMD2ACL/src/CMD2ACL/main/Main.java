@@ -8,7 +8,7 @@
  * Contributors:
  *     Obeo - initial API and implementation
  *******************************************************************************/
-package icase.main;
+package CMD2ACL.main;
 
 import java.io.File;
 import java.io.IOException;
@@ -35,14 +35,14 @@ public class Main extends AbstractAcceleoGenerator {
      *
      * @generated
      */
-    public static final String MODULE_FILE_NAME = "/icase/main/main";
+    public static final String MODULE_FILE_NAME = "/CMD2ACL/main/main";
     
     /**
      * The name of the templates that are to be generated.
      *
      * @generated
      */
-    public static final String[] TEMPLATE_NAMES = { "generateElement" };
+    public static final String[] TEMPLATE_NAMES = { "generateMain" };
     
     /**
      * The list of properties files from the launch parameters (Launch configuration).

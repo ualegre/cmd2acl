@@ -1,5 +1,5 @@
 [comment encoding = UTF-8 /]
-[module generateBluetoothObserver('http://www.eclipse.org/uml2/5.0.0/UML', 'http:///rcaseentities.ecore')]
+[module generateBluetoothObserver('http://www.eclipse.org/uml2/3.0.0/UML', 'http:///rcaseentities.ecore')]
 
 
 [template public generateBluetoothObserver(a : Class, s : Stereotype)]

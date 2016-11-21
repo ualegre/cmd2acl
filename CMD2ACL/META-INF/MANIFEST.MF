@@ -1,13 +1,13 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Acceleo Icase Module Runtime Plug-in
-Bundle-SymbolicName: icase
-Bundle-Version: 0.0.2
-Bundle-Activator: icase.Activator
+Bundle-Name: Acceleo CMD2ACL Module Runtime Plug-in
+Bundle-SymbolicName: CMD2ACL
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: CMD2ACL.Activator
 Bundle-Vendor: Eclipse Modeling Project
 Require-Bundle: org.eclipse.core.runtime, 
- org.eclipse.uml2.uml, 
  org.eclipse.emf.ecore, 
+ org.eclipse.uml2.uml, 
  org.eclipse.emf.ecore,
  org.eclipse.emf.ecore.xmi,
  org.eclipse.ocl,
@@ -20,7 +20,7 @@ Require-Bundle: org.eclipse.core.runtime,
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
 Eclipse-LazyStart: true
-Export-Package: icase.main
+Export-Package: CMD2ACL.main
 Bundle-ClassPath: bin/,
  .
 
