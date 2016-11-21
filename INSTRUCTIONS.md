@@ -13,10 +13,11 @@ Instructions for RC-ASE(Requirements for Context-Aware Systems Engineering)
 
 3. Click on File->Import->General->Existing Projects into Workspace. Then select the folder where the repository has been cloned.
 
-3. Paste your ".uml" diagram to the folder icase/model/
+3. Paste your ".uml" diagram to the folder CMD2ACL/model/
 	 * The files you can already find there are part of an example, if you do not have yet your diagram you can use them, if you already have it, you can get rid of them. 
-	 * When you export an RC-ASE Context Dependency Diagram in modelio, you will get two files: <your_project>.uml and rcase.entities.profile.uml), just paste them on icase/model/
-	 
+	 * When you export an RC-ASE Context Dependency Diagram in modelio, you will get two files: <your_project>.uml and rcase.entities.profile.uml), just paste them on CMD2ACL/model/
+	   Both these files are required to be together, in order for Acceleo to identify correctly the stereotypes. 
+	   
 4. Generate the metamodel using the rcase.entities.profile.uml file:  
 		a) File->New->Other->Eclipse Modelling Framework->EMF Project->(Next)->(Insert name and next)->UML Model->(Next)->(Browse workspace and select rcase.entities.profile.uml)->(Next)->
 			(Select rcaseentities as root pacakge and the rest as referenced generator models)->(Finish)
@@ -24,14 +25,16 @@ Instructions for RC-ASE(Requirements for Context-Aware Systems Engineering)
 		c) Click on Project->Clean->Clean all projects->OK
 
 5. Set up the running configurations:
-	* Right click on icase/main/main.mtl -> Run as->Run configurations
-	* Project: (Browse) icase
-	* Main class: (Browse) Main - icase.main
-	* Model: (Browse/Find) /icase/model/<your_project>.uml
-	* Target: /icase/output
+	* Right click on CMD2ACL/main/main.mtl -> Run as->Run configurations
+	* Project: (Browse) CMD2ACL
+	* Main class: (Browse) Main - CMD2ACL.main
+	* Model: (Browse/Find) /CMD2ACL/model/<your_project>.uml
+	* Target: /CMD2ACL/output
 	* Runner: Acceleo plugin application
 	* Click on Run 
 	
-6. You should be able to see your generated code in icase/output
+6. You should be able to see your generated code in CMD2ACL/output. 
+
+
 
 
