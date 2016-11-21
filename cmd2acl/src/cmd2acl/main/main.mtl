@@ -1,14 +1,13 @@
 [comment encoding = UTF-8 /]
 [module main('http:///rcaseentities.ecore', 'http://www.eclipse.org/uml2/5.0.0/UML')]
 
-[import CMD2ACL::common::generateReceiver/]
-[import CMD2ACL::common::generatePullObserver/]
-[import CMD2ACL::common::generatePushObserver/]
-[import CMD2ACL::common::generateLocationObserver/]
-[import CMD2ACL::common::generateSensorObserver/]
-[import CMD2ACL::common::generateBluetoothObserver/]
-[import CMD2ACL::common::generateBroadcastObserver/]
-
+[import cmd2acl::common::generateReceiver/]
+[import cmd2acl::common::generatePullObserver/]
+[import cmd2acl::common::generatePushObserver/]
+[import cmd2acl::common::generateLocationObserver/]
+[import cmd2acl::common::generateSensorObserver/]
+[import cmd2acl::common::generateBluetoothObserver/]
+[import cmd2acl::common::generateBroadcastObserver/]
 
 [template public generateMain(a : Class)]
 [comment @main/]

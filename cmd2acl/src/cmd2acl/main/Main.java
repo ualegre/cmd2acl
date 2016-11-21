@@ -8,7 +8,7 @@
  * Contributors:
  *     Obeo - initial API and implementation
  *******************************************************************************/
-package CMD2ACL.main;
+package cmd2acl.main;
 
 import java.io.File;
 import java.io.IOException;
@@ -35,7 +35,7 @@ public class Main extends AbstractAcceleoGenerator {
      *
      * @generated
      */
-    public static final String MODULE_FILE_NAME = "/CMD2ACL/main/main";
+    public static final String MODULE_FILE_NAME = "/cmd2acl/main/main";
     
     /**
      * The name of the templates that are to be generated.

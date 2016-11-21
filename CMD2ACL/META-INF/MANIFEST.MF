@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Acceleo CMD2ACL Module Runtime Plug-in
-Bundle-SymbolicName: CMD2ACL
+Bundle-Name: Acceleo Cmd2acl Module Runtime Plug-in
+Bundle-SymbolicName: cmd2acl
 Bundle-Version: 1.0.0.qualifier
-Bundle-Activator: CMD2ACL.Activator
+Bundle-Activator: cmd2acl.Activator
 Bundle-Vendor: Eclipse Modeling Project
 Require-Bundle: org.eclipse.core.runtime, 
  org.eclipse.emf.ecore, 
@@ -20,7 +20,7 @@ Require-Bundle: org.eclipse.core.runtime,
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
 Eclipse-LazyStart: true
-Export-Package: CMD2ACL.main
+Export-Package: cmd2acl.main
 Bundle-ClassPath: bin/,
  .
 
