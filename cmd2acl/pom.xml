@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>edu.casetools.dcase</groupId>
   <artifactId>cmd2acl</artifactId>
-  <version>0.0.2</version>
+  <version>0.0.3</version>
   <name>edu.casetools.dcase.cmd2acl</name>
   <description>Acceleo based project that helps the implementation stage of an Android based Context-Aware System (C-AS) using aContextLib</description>
   <properties>

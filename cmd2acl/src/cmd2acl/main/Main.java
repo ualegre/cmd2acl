@@ -340,27 +340,15 @@ public class Main extends AbstractAcceleoGenerator {
      * 
      * @param resourceSet
      *            The resource set which registry has to be updated.
-     * @generated
+     * @generated NOT
      */
+
     @Override
     public void registerPackages(ResourceSet resourceSet) {
         super.registerPackages(resourceSet);
         if (!isInWorkspace(org.eclipse.uml2.uml.UMLPackage.class)) {
             resourceSet.getPackageRegistry().put(org.eclipse.uml2.uml.UMLPackage.eINSTANCE.getNsURI(), org.eclipse.uml2.uml.UMLPackage.eINSTANCE);
-
-            if (umlJarPath != null){
-                URI uri = URI.createURI("jar:file:" + umlJarPath + "!/");
-                Map<URI, URI> uriMap = resourceSet.getURIConverter().getURIMap();
-	                uriMap.put(URI.createURI(UMLResource.LIBRARIES_PATHMAP),
-	                      uri.appendSegment("libraries").appendSegment(""));
-	                uriMap.put(URI.createURI(UMLResource.METAMODELS_PATHMAP),
-	                      uri.appendSegment("metamodels").appendSegment("http://www.eclipse.org/uml2/5.0.0/UML"));
-	                uriMap.put(URI.createURI(UMLResource.PROFILES_PATHMAP),
-		                  uri.appendSegment("profiles").appendSegment("http:///rcaseentities.ecore"));
-
             }
-
-        }
         
         /*
          * If you want to change the content of this method, do NOT forget to change the "@generated"
@@ -400,28 +388,14 @@ public class Main extends AbstractAcceleoGenerator {
      * 
      * @param resourceSet
      *            The resource set which registry has to be updated.
-     * @generated
+     * @generated NOT
      */
+
     @Override
     public void registerResourceFactories(ResourceSet resourceSet) {
         super.registerResourceFactories(resourceSet);
-        /*
-         * If you want to change the content of this method, do NOT forget to change the "@generated"
-         * tag in the Javadoc of this method to "@generated NOT". Without this new tag, any compilation
-         * of the Acceleo module with the main template that has caused the creation of this class will
-         * revert your modifications.
-         */
-        
-        /*
-         * TODO If you need additional resource factories registrations, you can register them here. the following line
-         * (in comment) is an example of the resource factory registration for UML.
-         *
-         * If you want to use the generator in stand alone, the resource factory registration will be required.
-         *  
-         * To learn more about the registration of Resource Factories, have a look at the Acceleo documentation (Help -> Help Contents). 
-         */ 
-        
-        // resourceSet.getResourceFactoryRegistry().getExtensionToFactoryMap().put(UMLResource.FILE_EXTENSION, UMLResource.Factory.INSTANCE);
+        resourceSet.getResourceFactoryRegistry().getExtensionToFactoryMap().put(UMLResource.FILE_EXTENSION,
+                                                                                UMLResource.Factory.INSTANCE);
     }
     
 }
